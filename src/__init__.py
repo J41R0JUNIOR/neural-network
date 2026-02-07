@@ -25,9 +25,6 @@ training_data = [
         )
 ]
 
-print(load_mnist_images(training_images_filepath).shape)
-print(load_mnist_labels(training_labels_filepath).shape)
-
 test_data = [
     (x, y)
     for x, y in 
